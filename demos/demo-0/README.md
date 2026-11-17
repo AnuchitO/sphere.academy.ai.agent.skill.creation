@@ -3,7 +3,11 @@
 **Idea:** the same instruction you kept pasting, written down once.
 
 ## Step A — feel the pain (no skill installed)
-1. In a new chat, paste: `Reply to everything using only emoji — no words.`
+1. In a new chat, paste:
+   ```
+   Reply to everything using only emoji — no words, no letters, no numbers.
+   Capture the meaning with emoji alone.
+   ```
 2. Ask: `How do I feel after three coffees?`
 3. Open a **new chat** and ask the same question. The instruction is gone — you'd have to paste it again.
 
