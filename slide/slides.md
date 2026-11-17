@@ -1064,7 +1064,7 @@ Walk it slowly — this is the slide that makes the whole workshop click for eng
 
 # Install `delivery-fee` and break it
 
-<div class="grid grid-cols-[1fr_1.1fr] gap-6 mt-3">
+<div class="grid grid-cols-[1fr_1.1fr] gap-5 mt-1">
 
 <div>
 
@@ -1076,7 +1076,7 @@ python3 scripts/calc_fee.py --km 12.5 \
   --order 300 --day Tue   # fee=107 baht
 ```
 
-<p class="text-xs" style="color:var(--muted)">Needs somewhere Claude can run code — Claude Code, or the app with code execution on.</p>
+<p class="text-xs" style="color:var(--muted)">Needs Claude Code, or the app with code execution on.</p>
 
 **2 · Zip the folder, load it in Claude Desktop**
 
@@ -1105,18 +1105,18 @@ open .   # reveal delivery-fee.zip in Finder
 | 2 km on Sunday? | No — suggest Monday |
 | “How much is delivery?” | Asks for km, total, day |
 
-<div class="try mt-3 text-xs" data-copy-ignore>📦 A folder with a script can't go in as one <code>.md</code>. Zip the <b>folder itself</b> so <code>delivery-fee/SKILL.md</code> sits inside. Then <b>Settings → Customize → Skills → + Add → Upload skill</b>, pick the <code>.zip</code>, and start a <b>new</b> chat.</div>
+<div class="try mt-3 text-xs" data-copy-ignore>📦 Zip the <b>folder itself</b> (a script can't go in as one <code>.md</code>). Then <b>Settings → Customize → Skills → + Add → Upload skill</b>, pick the <code>.zip</code>, start a <b>new</b> chat.</div>
 
 </div>
 </div>
 
-<div class="grid grid-cols-2 gap-4 mt-4 text-sm">
+<div class="grid grid-cols-2 gap-3 mt-2 text-xs">
   <div v-click class="try">🔁 Ask the first prompt <b>twice</b>. Same number?</div>
   <div v-click v-copy="'PER_KM = 10'" class="try">✏️ Change <code>PER_KM = 7</code> → <code>10</code>. The skill text didn't change — the answer did.</div>
 </div>
 
 <style>
-.try { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; box-shadow: var(--shadow); }
+.try { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 6px 10px; box-shadow: var(--shadow); }
 </style>
 
 ---
@@ -1896,4 +1896,4 @@ class: text-center
 
 <p style="color:var(--muted);font-size:1.2rem">Questions? Let's build your first skill together.</p>
 
-<div class="mt-8" style="font: 600 13px 'JetBrains Mono', monospace; color: var(--muted)">github.com/anuchito/course-agent-skills-in-action</div>
+<div class="mt-8" style="font: 600 13px 'JetBrains Mono', monospace; color: var(--muted)">github.com/AnuchitO/sphere.academy.ai.agent.skill.creation</div>
